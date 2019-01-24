@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;padding: 0;
+    a {
+     
+             font-size: 1.4em;
+    li {
+        background: rgb(148, 148, 146);
+        
+        border-radius: 4px;
+       margin:5px;
+        display: list-item;
+        width:25%;
+        grid-template-columns: 10px auto;
+
+               
+        &:hover {
+            background: rgb(68, 68, 68);
+            color:lightskyblue;
+        }
+    } }
+}
